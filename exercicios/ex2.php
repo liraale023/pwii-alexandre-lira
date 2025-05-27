@@ -1,11 +1,8 @@
-<?php
-   echo "Vamos calcular um volume, ";
-   $c = 3;
-   $l = 5;
-   $h = 2;
-   $volume = ($c * $l * $h);
-
-   echo "O volume é: $volume <br>";
-
-
-?>
+<html>
+    <body>
+      <?php
+      $volume = $_GET["c"] * $_GET["l"] * $_GET["h"];
+      echo $volume;
+        ?>
+    </body>
+</html>
